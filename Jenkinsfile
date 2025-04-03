@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'git@github.com:Hardikgaur21/AzureAssignment1.git'
+                git branch: 'master', url: 'https://github.com/Hardikgaur21/AzureAssignment1.git'
             }
         }
 
